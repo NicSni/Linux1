@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+i=0
+whíle [[ $i -le 10 ]]; do
+    echo "number $1"'
+    ((i+=1))
+done

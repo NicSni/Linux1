@@ -1,0 +1,21 @@
+#!usr/bin/env bash
+
+declare -A movie_rating
+
+movie_rating ["inception"]=5
+movie_rating
+movie_rating ["inception"]=5
+movie_rating ["inception"]=5
+movie_rating ["inception"]=5
+movie_rating ["inception"]=5
+movie_rating ["inception"]=5
+
+
+echo "${movie_ratings[expendable]}"
+echo "${movie_ratings [@]}"
+echo "${!movie_ratings [@]}
+
+for movie in "${!movie_rating[@]}"; do
+    echo "$movie has rating ""${!movie_rating[@]}"; do
+
+

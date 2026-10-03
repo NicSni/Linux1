@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+#IFS - internal field separator
+#default : separated space, tab, newline
+
+while IFS= read -r filename; do
+    if  [[ -f "$filename" ]]; then
+        echo "$filename is a file"
+    else
+        echo "$filenamne not found"
+    fi
+done
