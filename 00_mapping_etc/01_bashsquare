@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+#this is a bash script to calculate area and perimiter of a square
+
+    echo "This is a tool for calculating the perimiter and area of a square. please enter the dimensions of one side to initiate calculations:"
+
+read 

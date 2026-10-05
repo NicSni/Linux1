@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+greeter () {
+    echo "Hello ${1^}, you are $2 years old"
+} 
+
+#call function greeter with args (bob +15)
+greeter bob 15
+
+#takes in args from calling script  
+greeter $1 $2
+
